@@ -216,3 +216,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# macOS
+.DS_Store
+
+# Jupyter / Google Colab
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Local data
+data/raw/*
+data/processed/*
+
+# Keep empty folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+
+# Sensitive clinical data
+patient_data/
+clinical_data/
+identifiable_data/
